@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* header start here */
+header{
+    background-color: #ffc657;
+    height: 800px;
+
+
+}
+.header-img{
+    margin-left: 600px;
+    margin-top: -400px;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 50vh;
+    color:#3d2514;
+}
+.logo img{
+    width: 100px;
+    margin: 20px;
+}
+.logo-desc{
+    font-size: 40px;
+    margin-top: -35px;
+    margin: 20px;
+}
+.logo-desc h6{
+    text-transform: uppercase;
+}
+.logo-sector{
+    display: flex;
+}
+.navbar{
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.nav-desc{
+    font-size: 18px;
+
+}
+.nav-item ul{
+    display: flex;
+}
+.nav-item li{
+    list-style: none;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.list-item ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-item a:hover{
+    color: #3d2514;
+}
+
+
+
+
+
+.header-part{
+    color: #3d2514;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.header-desc p{
+   font-family: 'Courier New', Courier, monospace;
+   text-transform: uppercase;
+   border: 2px dashed #3d2514;
+   padding: 4px;
+   display: inline;
+   padding: 10px;
+   margin-top: 10px;
+   
+}
+.header-item h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+.header-week h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+
+/* header end here */
+/* img section start here */
+.images img{
+    height: 400px;
+    width: 600px;
+    margin: 80px 80px 30px 35px;
+}
+.img-section{
+    display: flex;
+    height: 570px;
+    cursor: pointer;
+}
+
+.img22 img{
+    height: 190px;
+    width: 500px;
+    margin-top: 80px;
+}
+.img44 img{
+    margin-top: 15px;
+}
+/* img section end here */
+/* first section start here */
+
+
+.all-item{
+    display: inline;
+
+}
+.tasty{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+.tasty p{
+    text-align: center;
+    color: #3d2514;
+   
+
+}
+.enjoy h1{
+    color: #3d2514;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    
+}
+.desce p{
+    color: #3d2514;
+    text-align: center;
+
+}
+/* berger section */
+.berger-section{
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.berger-section img{
+    height: 300px;
+    width: 300px;
+}
+/*   section     */
+.class{
+    display: flex;
+    cursor: pointer;
+}
+.lorem{
+    width: 33%;
+    text-align: center;
+}
+.lorem h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 15px;
+    font-weight: 45px;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+   border: none; 
+   text-transform: uppercase;
+   margin: 25px;
+   border-radius: 5px;
+   margin-bottom: 135px;
+
+}
+.btn:hover{
+    background-color: #bf2222;
+    color: #fff;
+    cursor: pointer;
+
+}
+/*  */
+
+.about{
+ margin-left: 80px;
+ overflow: hidden;
+}
+.full-section:hover{
+    background-color: #f6f6f6;
+    cursor: pointer;
+    transform: 3s;
+}
+.full-section{
+    display: flex;
+    height: 490px;
+}
+.about h3{
+    text-transform: uppercase;
+    color: #3d2514;
+    padding-top: 60px;
+}
+.about h1{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 5rem;
+    padding-bottom: 50px;
+}
+.about p{
+    color: #3d2514;
+    font-size: 18px;
+
+
+}
+.about-1 img{
+    height: 440px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+/* form */
+.information{
+    background-color: #e7e7e7;
+    height: 730px;
+    cursor: pointer;
+}
+
+.book{
+    text-align: center;
+}
+.book h2{
+    text-transform: uppercase;
+    color: #333300;
+    padding-top: 125px;
+
+}
+.book h1{
+    margin-top: 25px;
+    margin-bottom: 85px;
+    color: #333300;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.form-desc{
+    display: flex;
+    margin-left: 483px;
+    margin-bottom: 10px;
+}
+form input{
+    padding: 10px 35px;
+    border-left: none;
+    border-top: 1px solid #ccc;
+    /* border-bottom: 1px solid #ccc; */
+    outline: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+.form-desc1{
+    margin-bottom: 20px;
+}
+.form-desction{
+    margin-bottom: 20px;
+}
+.on:hover{
+    background-color: #cc3333;
+    color: #fff;
+    font-weight: 400;
+}
+form input:hover{
+    background-color: #cc3333;
+    color: #fff;
+    font-weight: 400;
+
+}
